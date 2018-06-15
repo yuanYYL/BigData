@@ -54,6 +54,7 @@ public class BigDataServlet extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		PrintWriter out=response.getWriter();
 		try {
+			System.out.println("!!!!!!!!!!!!!!!");
 			// Ajax跨域请求处理 start
 			//跨域请求来源
 			response.setHeader("Access-Control-Allow-Origin", "*");
