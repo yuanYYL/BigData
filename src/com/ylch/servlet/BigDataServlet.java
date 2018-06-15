@@ -83,6 +83,7 @@ public class BigDataServlet extends HttpServlet {
 			String reqBody = sb.toString();
 			String inJson = URLDecoder.decode(reqBody, "UTF-8");
 			inJson = inJson.toUpperCase();
+			System.out.println(inJson);
 			try {
 				// 解析Json数据
 				JSONObject jsonObj = new JSONObject(inJson);
